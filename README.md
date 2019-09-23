@@ -1,1 +1,1 @@
-# goosey-docs
+# GooseyDB
