@@ -5,6 +5,9 @@
 ;; Constructors
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(defn schema []
+  (.Schema mongoose))
+
 ;; connect
 (defn connect [uri options]
   "Opens the default mongoose connection."
